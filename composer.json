@@ -1,0 +1,15 @@
+{
+  "name": "CV reader",
+  "description": "Para ayudar a encontrar emails",
+  "require": {
+    "php": ">=7.1",
+    "smalot/pdfparser": "*",
+    "lukemadhanga/php-document-parser": "*",
+    "phpoffice/phpspreadsheet": "^1.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "CVREADER\\": "src/"
+    }
+  }
+}
